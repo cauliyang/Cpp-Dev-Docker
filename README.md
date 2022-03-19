@@ -2,9 +2,8 @@
 
 Docker Image for cpp development in different architecture
 
-## Dockerfiles
 
-### File Structure
+## File Structure
 
 ```
 Dockerfiles
@@ -12,10 +11,10 @@ Dockerfiles
 └── cmake-3.19-Dockerfile
 ```
 
-### Tools in container
+## Tools in container
 
 | Tool                  | Version |
-| --------------------- | ------- |
+| :---------------------| ------- |
 | Clang++               | 13.0    |
 | Clang                 | 13.0    |
 | Gcc                   | 11.0    |
