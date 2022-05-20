@@ -21,7 +21,6 @@ repos:
         language: system
         types: [text]
         stages: [commit, push, manual]
-        args: [--application-directories=src]
       - id: trailing-whitespace
         name: Trim Trailing Whitespace
         entry: trailing-whitespace-fixer

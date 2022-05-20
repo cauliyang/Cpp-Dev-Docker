@@ -1,6 +1,5 @@
 # Cpp-Dev-Docker
 
-
 ![Docker Automated build][docker build]
 ![Docker Image Size (latest by date)][docker image-size]
 ![Docker Stars][docker starts]
@@ -24,18 +23,18 @@ Dockerfiles
 ## Tools in container
 
 | Tool                  | Version |
-| :---------------------| ------- |
+| :-------------------- | ------- |
 | Clang++               | 13.0    |
 | Clang                 | 13.0    |
 | Gcc                   | 11.0    |
 | G++                   | 11.0    |
-| Clang-tidy            | 13.0       |
-| Clang-format          | 13.0       |
-| conan                 | 1.46        |
+| Clang-tidy            | 13.0    |
+| Clang-format          | 13.0    |
+| conan                 | 1.46    |
 | python                | 3.8     |
-| cmake                 | 3.22        |
-| include-what-you-want | 0.17        |
-| cppcheck              | 1.90       |
+| cmake                 | 3.22    |
+| include-what-you-want | 0.17    |
+| cppcheck              | 1.90    |
 | cmake-format          |         |
 
 ## Container in DockerHub
@@ -54,4 +53,3 @@ $ docker pull yangliz5/cpp-dev:2.0.1-amd64
 $ docker pull yangliz5/cpp-dev:2.0.1-arm64
 
 ```
-
