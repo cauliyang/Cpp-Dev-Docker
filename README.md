@@ -35,11 +35,11 @@ Dockerfiles
 | cmake                 | 3.22    |
 | include-what-you-want | 0.17    |
 | cppcheck              | 1.90    |
-| cmake-format          |         |
+| cmake-format          | 0.6.13  |
 
 ## Usage
 
-[Cpp dev with amd64](https://hub.docker.com/layers/cpp-dev/yangliz5/cpp-dev/2.0.1-amd64/images/sha256-6e59ba34da195e464e6217351cdbc54c2fb85a7f9734ffe16f432a225ee92a08?context=repo)
+[Cpp dev with amd64 gcc](https://hub.docker.com/layers/cpp-dev/yangliz5/cpp-dev/2.0.1-amd64/images/sha256-6e59ba34da195e464e6217351cdbc54c2fb85a7f9734ffe16f432a225ee92a08?context=repo)
 
 ```console
 
@@ -51,22 +51,22 @@ $ echo $CXX
 g++
 ```
 
-[Cpp dev with arm64](https://hub.docker.com/layers/227559855/yangliz5/cpp-dev/2.2.0-arm64/images/sha256-232e05a218581a778ddad3f2b63d4cf34c4deabc62c90fb80f0f9a565e366cac?context=repo)
+[Cpp dev with arm64 clang](https://hub.docker.com/layers/cpp-dev/yangliz5/cpp-dev/2.2.1-arm64/images/sha256-3b72e323a60bef6f5577ccc5d7c75d01ace7a6b48cb1df2b0776a05e87eac560?context=repo)
 
 ```console
-$ docker pull yangliz5/cpp-dev:2.2.0-arm64
-$ docker run -it yangliz5/cpp-dev:2.2.0--amd64 /bin/bash
+$ docker pull yangliz5/cpp-dev:2.2.1-arm64
+$ docker run -it yangliz5/cpp-dev:2.2.1--amd64 /bin/bash
 $ echo $CC 
 clang 
 $ echo $CXX
 clang++
 ```
 
-[Cpp dev with arm64](https://hub.docker.com/layers/217541410/yangliz5/cpp-dev/2.1.0-arm64/images/sha256-b37802fc03cf07720c9e8a786879557fb16fabd41545c9d2c9cfc115469ebd83?context=repo)
+[Cpp dev with arm64 gcc](https://hub.docker.com/layers/cpp-dev/yangliz5/cpp-dev/2.3.1-arm64/images/sha256-0b879edd834119cf2ff6b353974ed336cf19f240723e03d19c4175edb8e0ed79?context=repo)
 
 ```console
-$ docker pull yangliz5/cpp-dev:2.1.0-arm64
-$ docker run -it yangliz5/cpp-dev:2.1.0--amd64 /bin/bash
+$ docker pull yangliz5/cpp-dev:2.3.1-arm64
+$ docker run -it yangliz5/cpp-dev:2.3.1--amd64 /bin/bash
 $ echo $CC 
 gcc 
 $ echo $CXX
